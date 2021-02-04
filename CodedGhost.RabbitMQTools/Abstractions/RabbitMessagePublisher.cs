@@ -16,7 +16,7 @@ namespace CodedGhost.RabbitMQTools.Abstractions
             _codedConnectionFactory = codedConnectionFactory;
         }
 
-        public void Publish(RabbitMessage rabbitMessage)
+        public void Publish(IRabbitMessage rabbitMessage)
         {
             var connection = _codedConnectionFactory.GetRabbitConnection();
 

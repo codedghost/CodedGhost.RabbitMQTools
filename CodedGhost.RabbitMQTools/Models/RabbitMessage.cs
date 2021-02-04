@@ -2,7 +2,7 @@
 
 namespace CodedGhost.RabbitMQTools.Models
 {
-    public abstract class RabbitMessage
+    public abstract class RabbitMessage : IRabbitMessage
     {
         public RabbitMessage()
         {

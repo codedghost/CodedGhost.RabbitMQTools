@@ -4,6 +4,6 @@ namespace CodedGhost.RabbitMQTools.Interfaces
 {
     public interface IRabbitMessagePublisher
     {
-        void Publish(RabbitMessage rabbitMessage);
+        void Publish(IRabbitMessage rabbitMessage);
     }
 }
